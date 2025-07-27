@@ -12,8 +12,8 @@ public class Main {
         try {
             // Connect to MySQL
             String url = "jdbc:mysql://localhost:3306/gaming_platform";
-            String user = "root";
-            String password = "Undergrad@3110";
+            String user = "your_mysql_username";
+            String password = "your_mysql_password";
             connection = DriverManager.getConnection(url, user, password);
             System.out.println("Connected to MySQL successfully!");
 
